@@ -1,0 +1,10 @@
+<suite name="Arithmetic API">
+<parameter name="RequestID" value="ReportWithFailedTestCases#TDD"/>
+
+<test name="ArithmeticOperations">
+<classes>
+<class name="ArithmeticOperations.Assignment3.ArithmeticOperationTest">
+</class>
+</classes>
+</test>
+</suite>

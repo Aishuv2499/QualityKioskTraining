@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Arithmetic API]">
+  <parameter name="RequestID" value="ReportWithFailedTestCases#TDD"/>
+  <test thread-count="5" name="ArithmeticOperations(failed)">
+    <classes>
+      <class name="ArithmeticOperations.Assignment3.ArithmeticOperationTest">
+        <methods>
+          <include name="ReintialisingResult"/>
+          <include name="TestMultiplicationWithPositiveNumbers" invocation-numbers="0 1 2"/>
+          <include name="copyResultFile"/>
+          <include name="TestSubtraction" invocation-numbers="0 1 2"/>
+          <include name="TestDivision"/>
+          <include name="clearResult"/>
+          <include name="init"/>
+          <include name="createResultFolder"/>
+          <include name="TestAddtion" invocation-numbers="0 1 2"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- ArithmeticOperations.Assignment3.ArithmeticOperationTest -->
+    </classes>
+  </test> <!-- ArithmeticOperations(failed) -->
+</suite> <!-- Failed suite [Arithmetic API] -->
