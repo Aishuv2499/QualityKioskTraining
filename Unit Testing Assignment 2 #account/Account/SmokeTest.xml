@@ -1,0 +1,13 @@
+<suite name="SmokeTest">
+<parameter name="RequestID" value="Report2"/>
+	<groups>
+		<run>
+			<include name="SmokeTest"/>
+		</run>
+	</groups>
+	<test name="Smoke Testing">
+		<classes>
+			<class name = "BankOfBharat.Account.BankUnitTesting" />
+		</classes>
+	</test>
+</suite>

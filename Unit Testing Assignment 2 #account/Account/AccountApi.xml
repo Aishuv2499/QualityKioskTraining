@@ -1,0 +1,10 @@
+<suite name="Account API">
+<parameter name="RequestID" value="Report3"/>
+
+<test name="BankAccount">
+<classes>
+<class name="BankOfBharat.Account.BankUnitTesting">
+</class>
+</classes>
+</test>
+</suite>

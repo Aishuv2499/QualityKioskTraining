@@ -1,0 +1,13 @@
+<suite name="Smoke Test">
+	<parameter name="RequestID" value="Result4" />
+	<groups>
+		<run>
+			<include name="SmokeTest"/>
+		</run>
+	</groups>
+	<test name="Smoke Testing">
+		<classes>
+			<class name = "Library.UnitTesting.LibraryUnitTesting" />
+		</classes>
+	</test>
+</suite>

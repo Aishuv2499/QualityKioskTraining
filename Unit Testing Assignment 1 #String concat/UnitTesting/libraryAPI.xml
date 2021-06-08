@@ -1,0 +1,10 @@
+<suite name="Testing library API">
+<parameter name="RequestID" value="Report2"/>
+
+<test name=" Concatenate">
+<classes>
+<class name="Library.UnitTesting.LibraryUnitTesting">
+</class>
+</classes>
+</test>
+</suite>
